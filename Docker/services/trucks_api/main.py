@@ -12,7 +12,7 @@ import cv2
 model = get_yolov5()
 
 app = FastAPI(
-    title="Custom YOLOV5 Machine Learning API",
+    title="Prerelease Umai Eye API",
 )
 
 @app.post("/object-to-img")
